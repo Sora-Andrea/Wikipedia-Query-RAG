@@ -10,12 +10,13 @@ warnings.filterwarnings("ignore")
 # Parameters
 chunk_size = 500
 chunk_overlap = 50
-# chunk_size = 250
-# chunk_size = 800
-# chunk_overlap = 25
-# chunk_overlap = 100
-# chunk_overlap = 75
-# chunk_overlap = 0
+#chunk_size = 250
+#chunk_overlap = 25
+#chunk_size = 800
+#chunk_overlap = 0
+#chunk_overlap = 75
+#chunk_size = 1000
+#chunk_overlap = 100
 model_name = "sentence-transformers/all-distilroberta-v1"
 top_k = 5
 
