@@ -1,12 +1,12 @@
 
-### The selected document is the Wikipedia page for Ranni the Witch 
+## The selected document is the Wikipedia page for Ranni the Witch 
 *https://en.wikipedia.org/wiki/Ranni_the_Witch*
 **This article provides lore, character background, and game mechanics related to Ranni, including her role in the Elden Ring story, questline details, relationships, and major outcomes.**
 
 
 
 
-##### AI‑Generated Q&A :
+#### AI‑Generated Q&A :
 
 **1. What is the embedding dimensionality produced by our model?** 
 <ins>Answer</ins>: The sentence-transformers/all-distilroberta-v1 model generates fixed‑length vectors of 768 dimensions, balancing representational power with computational efficiency.
@@ -29,7 +29,7 @@
 
  
 
-##### Experimentig with chunk_size and chunk_overlap :
+#### Experimentig with chunk_size and chunk_overlap :
 
 Small chunks (250) with low overlap (25): Awnsers were precise for narrow questions but often missed nuanced connections.
 
@@ -39,13 +39,13 @@ Moderate size (500) with 50 or 75 overlap: Was the sweet spot to get the most fa
 
 
 
-##### Quality of Responses :
+#### Quality of Responses :
 
 The answers were generally coherent and context‑aware, accurately reflecting retrieved snippets, occasionally it was overly general if prompts lacked specificity.
 
 
 
-##### Suggestions for Improvements :
+#### Suggestions for Improvements :
 
 Adapt chunk sizes based on sentence boundaries or semantics.
 
