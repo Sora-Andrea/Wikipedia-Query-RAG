@@ -11,9 +11,11 @@ warnings.filterwarnings("ignore")
 chunk_size = 500
 chunk_overlap = 50
 # chunk_size = 250
+# chunk_size = 800
 # chunk_overlap = 25
 # chunk_overlap = 100
 # chunk_overlap = 75
+# chunk_overlap = 0
 model_name = "sentence-transformers/all-distilroberta-v1"
 top_k = 5
 
