@@ -27,15 +27,20 @@
   
 ### Experimentig with chunk_size and chunk_overlap :
 
-Moderate size (500) with (50) overlap: These parameters were the sweet spot to get the most factual details with minimal redundancy.  
+• Moderate size (500) with (50) overlap:  
+These parameters were the sweet spot to get the most factual details with minimal redundancy.  
 
-Small chunks with low overlap: Answers were precise for narrow questions but often missed nuanced information and often missed the entire point of the question.
+• Small chunks with low overlap:  
+Answers were precise for narrow questions but often missed nuanced information and often missed the entire point of the question.
 
-Large chunks with little to no overlap: Context was broad and also buried key sentences, leading to broad answers that sometimes were incorrect.
+• Large chunks with little to no overlap:  
+Context was broad and also buried key sentences, leading to broad answers that sometimes were incorrect.
 
-Small chunks with high overlap: Answers ranged from lacking nuance and being inaccurate, to also being verbose and accurate.
+• Small chunks with high overlap:  
+Answers ranged from lacking nuance and being inaccurate, to also being verbose and accurate.
 
-Very large chunks and chunk overlap: Surprisingly accurate and informative in most cases, narrow questions can return unexpected answers.
+• Very large chunks and chunk overlap:  
+Surprisingly accurate and informative in most cases, narrow questions can return unexpected answers.
   
   
 ### Quality of Responses :
