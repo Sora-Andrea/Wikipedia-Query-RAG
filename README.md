@@ -53,4 +53,4 @@ The answers were generally coherent and context‑aware, accurately reflecting r
 
 Adapt chunk sizes based on sentence boundaries or semantics.
 
-Use a template engine to experiment with instruction phrasing and max_length settings.
+Use a template library to experiment with phrasing and max_length settings.
