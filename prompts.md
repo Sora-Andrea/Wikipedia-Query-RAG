@@ -1,4 +1,4 @@
-##chunk_size=500 chunk_overlap=50  
+## chunk_size=500 chunk_overlap=50  
 **Your question: Who is Ranni the Witch**  
 <ins>Answer</ins>: a powerful witch , Empyrean, and supporting character inhabiting the body of a human-sized doll , and a major figure in the game's lore  
 **Your question: What does Ranni look like throughout the game**  
@@ -12,7 +12,7 @@
 **Your question: What is Blaidd to Ranni**  
 <ins>Answer</ins>: A sidequest involving Ranni's guardian, Blaidd the Half-Wolf  
 
-##chunk_size=250 chunk_overlap=25  
+## chunk_size=250 chunk_overlap=25  
 **Your question: Who is Ranni the Witch**  
 <ins>Answer</ins>: A powerful witch , Empyrean, and supporting character inhabiting the body of a human-sized doll  
 **Your question: What does Ranni look like throughout the game**  
@@ -26,7 +26,7 @@
 **Your question: What is Blaidd to Ranni**  
 <ins>Answer</ins>: a cold and commanding personality, but helps the player under the alias "Renna"  
 
-##chunk_size=800 chunk_overlap=0  
+## chunk_size=800 chunk_overlap=0  
 **Your question: Who is Ranni the Witch**  
 <ins>Answer</ins>: a character from the 2022 video game Elden Ring , and is voiced by Aimee-Ffion Edwards  
 **Your question: What does Ranni look like throughout the game**  
@@ -40,7 +40,7 @@
 **Your question: What is Blaidd to Ranni**  
 <ins>Answer</ins>: protector  
 
-##chunk_size=250 chunk_overlap=75  
+## chunk_size=250 chunk_overlap=75  
 **Your question: Who is Ranni the Witch**  
 <ins>Answer</ins>: a character from the 2022 video game Elden Ring , and is voiced by Aimee-Ffion Edwards  
 **Your question: What does Ranni look like throughout the game**  
@@ -54,7 +54,7 @@
 **Your question: What is Blaidd to Ranni**  
 <ins>Answer</ins>: a "hero"  
 
-##chunk_size=1000 chunk_overlap=100  
+## chunk_size=1000 chunk_overlap=100  
 **Your question: Who is Ranni the Witch**  
 <ins>Answer</ins>: A powerful witch , Empyrean, and supporting character inhabiting the body of a human-sized doll , and a major figure in the game's lore  
 **Your question: What does Ranni look like throughout the game**  
