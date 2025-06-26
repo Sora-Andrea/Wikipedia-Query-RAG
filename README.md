@@ -1,6 +1,5 @@
-# The selected document is the Wikipedia page for Ranni the Witch 
-*https://en.wikipedia.org/wiki/Ranni_the_Witch*
-**This article provides lore, character background, and game mechanics related to Ranni, including her role in the Elden Ring story, questline details, relationships, and major outcomes.**
+# The selected document is the [Wikipedia page for Ranni the Witch](https://en.wikipedia.org/wiki/Ranni_the_Witch)
+**This article provides lore, character background, and game mechanics related to Ranni, including her role in the Elden Ring story, questline details, relationships, and major outcomes.**  
 
 
 
@@ -24,7 +23,7 @@
 
 
 **5. How does the choice of top_k affect precision versus recall?**
-<ins>Answer</ins>: A smaller top_k (5) focuses on the most relevant chunks, boosting precision but possibly missing peripheral details. Increasing top_k enhances recall by pulling in more context but may introduce noise that confuses the generator.
+<ins>Answer</ins>: A smaller top_k (5) focuses on the most relevant chunks, boosting precision but possibly missing peripheral details. Increasing top_k enhances recall by pulling in more context but may introduce noise that confuses the generator.  
 
  
 
@@ -34,13 +33,13 @@ Small chunks (250) with low overlap (25): Awnsers were precise for narrow questi
 
 Large chunks (800) with no overlap (0): Context was broad but sometimes buried key sentences, leading to less targeted retrieval.
 
-Moderate size (500) with 50 or 75 overlap: Was the sweet spot to get the most factual details, with minimal redundancy.
+Moderate size (500) with 50 or 75 overlap: Was the sweet spot to get the most factual details, with minimal redundancy.  
 
 
 
 ### Quality of Responses :
 
-The answers were generally coherent and context‑aware, accurately reflecting retrieved snippets, occasionally it was overly general if prompts lacked specificity.
+The answers were generally coherent and context‑aware, accurately reflecting retrieved snippets, occasionally it was overly general if prompts lacked specificity.  
 
 
 
