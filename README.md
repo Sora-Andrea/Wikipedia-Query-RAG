@@ -13,7 +13,7 @@
 
 
 **3. How do chunk_size and chunk_overlap influence retrieval quality?** 
-<ins>Answer</ins>: A larger chunk_size outputs more context per chunk but risks diluting focus on specific facts. Introducing chunk_overlap ensures continuity helps capture information that spans chunk edges, improving awnsers at the cost of occational redundancy.
+<ins>Answer</ins>: A larger chunk_size outputs more context per chunk but risks diluting focus on specific facts. Introducing chunk_overlap ensures continuity and helps capture information that spans chunk edges, improving answers at the cost of occasional redundancy.
 
 
 **4. What role does prompt design play in generation quality?** 
@@ -27,17 +27,20 @@
   
 ### Experimentig with chunk_size and chunk_overlap :
 
-Small chunks (250) with low overlap (25): Awnsers were precise for narrow questions but often missed nuanced connections.
+Moderate size (500) with (50) overlap: These parameters were the sweet spot to get the most factual details with minimal redundancy.  
 
-Large chunks (800) with no overlap (0): Context was broad but sometimes buried key sentences, leading to less targeted retrieval.
+Small chunks with low overlap: Answers were precise for narrow questions but often missed nuanced information and often missed the entire point of the question.
 
-Moderate size (500) with 50 or 75 overlap: Was the sweet spot to get the most factual details, with minimal redundancy.  
-  
+Large chunks with little to no overlap: Context was broad and also buried key sentences, leading to broad answers that sometimes were incorrect.
+
+Small chunks with high overlap: Answers ranged from lacking nuance and being inaccurate, to also being verbose and accurate.
+
+Very large chunks and chunk overlap: Surprisingly accurate and informative in most cases, narrow questions can return unexpected answers.
   
   
 ### Quality of Responses :
 
-The answers were generally coherent and context‑aware, accurately reflecting retrieved snippets, occasionally it was overly general if prompts lacked specificity.  
+The answers were generally coherent and context‑aware, accurately reflecting retrieved snippets; occasionally it was overly general if prompts lacked specificity.  
   
   
   
