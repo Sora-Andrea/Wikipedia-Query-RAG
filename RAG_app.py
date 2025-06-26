@@ -2,22 +2,26 @@ import logging
 from transformers import logging as hf_logging
 import warnings
 
-# 3.1 Suppress Noisy Logs
+# Suppress Noisy Logs
 logging.getLogger("langchain.text_splitter").setLevel(logging.ERROR)
 hf_logging.set_verbosity_error()
 warnings.filterwarnings("ignore")
 
-# 3.2 Parameters
+# Parameters
 chunk_size = 500
 chunk_overlap = 50
+# chunk_size = 250
+# chunk_overlap = 25
+# chunk_overlap = 100
+# chunk_overlap = 75
 model_name = "sentence-transformers/all-distilroberta-v1"
 top_k = 5
 
-# 3.3 Read the Pre-scraped Document
+# Read the Pre-scraped Document
 with open("Selected_Document.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
-# 3.4 Split into Appropriately-sized Chunks
+# Split into Appropriately-sized Chunks
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 text_splitter = RecursiveCharacterTextSplitter(
     separators=["\n\n", "\n", " ", ""],
@@ -26,7 +30,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 chunks = text_splitter.split_text(text)
 
-# 3.5 Embed & Build FAISS Index
+# Embed & Build FAISS Index
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import faiss
@@ -37,7 +41,7 @@ embeddings = np.array(embeddings, dtype=np.float32)
 index = faiss.IndexFlatL2(embeddings.shape[1])
 index.add(embeddings)
 
-# 3.6 Load the Generator Pipeline
+# Load the Generator Pipeline
 from transformers import pipeline
 generator = pipeline(
     "text2text-generation",
@@ -45,7 +49,7 @@ generator = pipeline(
     device=-1
 )
 
-# 3.7 Retrieval & Answering Functions
+# Retrieval & Answering Functions
 def retrieve_chunks(question, k=top_k):
     # Encode the question
     q_emb = embedder.encode([question])
@@ -69,7 +73,7 @@ def answer_question(question):
     result = generator(prompt, max_length=200)
     return result[0]["generated_text"]
 
-# 3.8 Interactive Loop
+# Interactive Loop
 if __name__ == "__main__":
     print("Enter 'exit' or 'quit' to end.")
     while True:
