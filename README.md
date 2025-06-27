@@ -42,6 +42,7 @@ Answers ranged from lacking nuance and being inaccurate, to also being verbose a
 • Very large chunks and chunk overlap:  
 Surprisingly accurate and informative in most cases, narrow questions can return unexpected answers.
   
+[See the prompts utilized and resulting answers](prompts.md)
   
 ### Quality of Responses :
 
